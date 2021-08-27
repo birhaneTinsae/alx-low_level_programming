@@ -1,2 +1,2 @@
 #!/bin/bash
-echo gcc -E $CFILE | tee -a c
+gcc -E $CFILE | tee -a c
