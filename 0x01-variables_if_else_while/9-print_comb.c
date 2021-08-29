@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int i=0;
+int i = 0;
 do{
 putchar(i + '0');
 if (i < 9)
@@ -15,7 +15,7 @@ putchar(',');
 putchar(' ');
 }
 i++;
-}while(i<10);
+} while (i<10);
 
 /*for (i = 0; i <= 9; i++)
 {
