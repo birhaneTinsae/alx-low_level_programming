@@ -6,8 +6,18 @@
  */
 int main(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
+int i=0;
+do{
+putchar(i + '0');
+if (i < 9)
+{
+putchar(',');
+putchar(' ');
+}
+i++;
+}while(i<10);
+
+/*for (i = 0; i <= 9; i++)
 {
 putchar(i + '0');
 if (i==9)
@@ -19,7 +29,7 @@ else
 putchar(',');
 putchar(' ');
 }
-}
-putchar('\n');
+}*/
+putchar('$');
 return (0);
 }
