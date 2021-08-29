@@ -19,11 +19,11 @@ printf("%s %d %s %d %s %d %s %d\n","Last digit of", n, "is", lastDigit, "and is 
 }
 else if (lastDigit > 5)
 {
-printf("%s %d %s %d  %s %d","Last digit of", n, "is",lastDigit, "and is greater than", 5);
+printf("%s %d %s %d %s %d\n","Last digit of", n, "is",lastDigit, "and is greater than", 5);
 }
 else if (lastDigit == 0)
 {
-printf("%s %d %s %d %s %d","Last digit of", n, "is", lastDigit, "and is ", 0);
+printf("%s %d %s %d %s %d\n","Last digit of", n, "is", lastDigit, "and is ", 0);
 }
 return (0);
 }
