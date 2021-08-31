@@ -47,3 +47,12 @@ int _isalpha(int c);
  * Return: On success 1.
  **/
 int print_sign(int n);
+
+/**
+ * _abs - check is c is a character
+ * @n: The number to check
+ *
+ * Return: On success 1.
+ **/
+
+int _abs(int);
