@@ -12,7 +12,9 @@ int lastDigit;
 if (n < 0)
 {
 lastDigit = (n * -1) % 10;
-return (lastDigit * 10 + lastDigit);
+_putchar(lastDigit + '0');
+return (lastDigit);
 }
-return ((n % 10) * 10 + (n % 10));
+_putchar((n % 10) + '0');
+return ((n % 10));
 }
