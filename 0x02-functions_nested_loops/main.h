@@ -64,3 +64,12 @@ int _abs(int);
  * Return: On success 1.
  **/
 int print_last_digit(int);
+
+
+/**
+ * jack_bauer - check is c is a character
+ * 
+ *
+ * Return: On success 1.
+ **/
+void jack_bauer(void);
