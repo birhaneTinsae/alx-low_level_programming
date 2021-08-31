@@ -39,3 +39,11 @@ int _islower(int c);
  * Return: On success 1.
  **/
 int _isalpha(int c);
+
+/**
+ * print_sign - check is c is a character
+ * @n: The number to check
+ *
+ * Return: On success 1.
+ **/
+int print_sign(int n);
