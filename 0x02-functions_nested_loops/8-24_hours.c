@@ -4,7 +4,7 @@
  * jack_bauer - writes the character c to stdout
  *  On error, -1 is returned, and errno is set appropriately.
  */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 int h, m;
 
