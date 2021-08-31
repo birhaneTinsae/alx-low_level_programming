@@ -12,15 +12,21 @@ if (n < 98)
 for (n = n; n < 98; n++)
 {
 _putchar(n + '0');
+if (n < 98)
+{
+_putchar(',');   
 }
-_putchar(98 + '0');
+}
 }
 else
 {
 for (n = n; n > 98; n--)
 {
 _putchar(n + '0');    
+if (n > 98)
+{
+_putchar(',');   
 }
-_putchar(98 + '0');		
+}	
 }
 }
