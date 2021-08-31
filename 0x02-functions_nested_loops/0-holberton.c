@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * main - check the code for ALX School students.
  *
@@ -6,6 +6,11 @@
  */
 int main(void)
 {
-printf("%s","Holberton");
+char[] name="Holberton";
+for(int i=0;i<name.length;i++)
+{
+_putchar(name[i]);
+}
+
 return ( 0 ) ;
 }
