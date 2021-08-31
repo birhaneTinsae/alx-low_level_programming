@@ -23,3 +23,11 @@ void print_alphabet(void);
  * Return: On success 1.
  **/
 void print_alphabet_x10(void);
+
+/**
+ * _islower - check is c is a character
+ * @c: The character to check
+ *
+ * Return: On success 1.
+ **/
+int _islower(int c);
