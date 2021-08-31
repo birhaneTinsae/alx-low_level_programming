@@ -73,3 +73,11 @@ int print_last_digit(int);
  * Return: On success 1.
  **/
 void jack_bauer(void);
+
+/**
+ * times_table - check is c is a character
+ * 
+ *
+ * Return: On success 1.
+ **/
+void times_table(void);
