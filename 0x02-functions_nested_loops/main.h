@@ -56,3 +56,11 @@ int print_sign(int n);
  **/
 
 int _abs(int);
+
+/**
+ * print_last_digit - check is c is a character
+ * 
+ *
+ * Return: On success 1.
+ **/
+int print_last_digit(int);
