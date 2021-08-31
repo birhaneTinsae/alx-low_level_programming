@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char[] name="Holberton";
+char name[]="Holberton";
 int i;
-for( i = 0; i < name.length; i++)
+for( i = 0; i < 9; i++)
 {
 _putchar(name[i]);
 }
