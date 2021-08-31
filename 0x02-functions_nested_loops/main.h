@@ -90,3 +90,11 @@ void times_table(void);
  **/
 
 int add(int, int);
+
+/**
+ * print_to_98 - check is c is a character
+ * 
+ *
+ * Return: On success 1.
+ **/
+void print_to_98(int n);
