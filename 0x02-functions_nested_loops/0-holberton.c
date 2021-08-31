@@ -13,5 +13,7 @@ for( i = 0; i < name.length; i++)
 _putchar(name[i]);
 }
 
+_putchar('\n');
+
 return ( 0 ) ;
 }
