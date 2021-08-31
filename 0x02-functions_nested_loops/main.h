@@ -81,3 +81,12 @@ void jack_bauer(void);
  * Return: On success 1.
  **/
 void times_table(void);
+
+/**
+ * add - check is c is a character
+ * 
+ *
+ * Return: On success 1.
+ **/
+
+int add(int, int);
