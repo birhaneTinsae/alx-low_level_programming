@@ -7,7 +7,8 @@
 int main(void)
 {
 char[] name="Holberton";
-for(int i=0;i<name.length;i++)
+int i;
+for( i = 0; i < name.length; i++)
 {
 _putchar(name[i]);
 }
