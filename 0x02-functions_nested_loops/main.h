@@ -31,3 +31,11 @@ void print_alphabet_x10(void);
  * Return: On success 1.
  **/
 int _islower(int c);
+
+/**
+ * _isalpha - check is c is a character
+ * @c: The character to check
+ *
+ * Return: On success 1.
+ **/
+int _isalpha(int c);
