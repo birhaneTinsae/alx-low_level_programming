@@ -120,3 +120,9 @@ int _isdigit(int c);
  * Return: On success 1.
  **/
 int mul(int a, int b);
+/**
+ * _isupper - check is c is a character
+ * 
+ * Return: On success 1.
+ **/
+void print_numbers(void);
