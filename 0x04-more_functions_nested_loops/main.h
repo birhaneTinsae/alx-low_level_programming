@@ -121,8 +121,14 @@ int _isdigit(int c);
  **/
 int mul(int a, int b);
 /**
- * _isupper - check is c is a character
+ * print_numbers - check is c is a character
  * 
  * Return: On success 1.
  **/
 void print_numbers(void);
+/**
+ * print_most_numbers - check is c is a character
+ * 
+ * Return: On success 1.
+ **/
+void print_most_numbers(void);
