@@ -106,3 +106,10 @@ void print_to_98(int n);
  * Return: On success 1.
  **/
 int _isupper(int c);
+/**
+ * _isdigit - check is c is a character
+ * @c: The number to check
+ *
+ * Return: On success 1.
+ **/
+int _isdigit(int c);
