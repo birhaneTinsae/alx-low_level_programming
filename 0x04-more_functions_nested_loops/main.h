@@ -113,3 +113,10 @@ int _isupper(int c);
  * Return: On success 1.
  **/
 int _isdigit(int c);
+/**
+ * mul - check is c is a character
+ * @a: The number to check
+ * @b: The number to check
+ * Return: On success 1.
+ **/
+int mul(int a, int b);
