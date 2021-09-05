@@ -98,3 +98,10 @@ int add(int, int);
  * Return: On success 1.
  **/
 void print_to_98(int n);
+/**
+ * print_times_table - check is c is a character
+ * @n: The number to check
+ *
+ * Return: On success 1.
+ **/
+void print_times_table(int n);
