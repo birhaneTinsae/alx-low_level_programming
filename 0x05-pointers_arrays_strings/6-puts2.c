@@ -6,10 +6,9 @@
  */
 void puts2(char *str)
 {
-while (*str != '\0')
+int i;
+for (i = 0; i < sizeof(str); i+2)
 {
-puts(str);
-str+=2;
+puts(str[i]);
 }
-
 }
