@@ -3,8 +3,8 @@
  * _strlen - get string length
  * @s: string argument
  *
- * Return: string size 
- */
+ * Return: string size
+ * */
 int _strlen(char *s)
 {
 char *p = s;
