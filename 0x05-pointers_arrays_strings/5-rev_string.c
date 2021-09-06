@@ -1,5 +1,9 @@
 #include"main.h"
 #include <stdio.h>
+/**
+ * string_length - get string length
+ * @pointer: string argument
+ */
 int string_length(char *pointer)
 {
 int c = 0;
