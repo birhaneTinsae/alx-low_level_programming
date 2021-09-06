@@ -3,6 +3,7 @@
 /**
  * string_length - get string length
  * @pointer: string argument
+ * Return : pointer length
  */
 int string_length(char *pointer)
 {
