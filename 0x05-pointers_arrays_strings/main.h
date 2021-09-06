@@ -10,4 +10,9 @@ void reset_to_98(int *n);
  * @b pointer parameter two
  */
 void swap_int(int *a, int *b);
+/**
+ * _strlen - get string length
+ * @s: string argument
+ */
+int _strlen(char *s);
 
