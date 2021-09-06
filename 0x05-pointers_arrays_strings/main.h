@@ -15,4 +15,9 @@ void swap_int(int *a, int *b);
  * @s: string argument
  */
 int _strlen(char *s);
+/**
+ * _puts - get string length
+ * @s: string argument
+ */
+void _puts(char *str);
 
