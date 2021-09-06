@@ -10,10 +10,10 @@ c++;
 return c;
 }
 /**
- * print_rev - get string length
+ * rev_string - get string length
  * @str: string argument
  */
-void print_rev(char *str)
+void rev_string(char *str)
 {
 int length, c;
 char *begin, *end, temp;
@@ -24,7 +24,10 @@ for ( c = 0 ; c < ( length - 1 ) ; c++ )
 end++;
 for ( c = 0 ; c < length/2 ; c++ ) 
 {        
-puts(*end);
+temp = *end;
+*end = *begin;
+*begin = temp;
+begin++;
 end--;
 }
 }
