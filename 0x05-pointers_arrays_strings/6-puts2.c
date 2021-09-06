@@ -7,5 +7,4 @@
 void puts2(char *str)
 {
 puts(str);
-puts('\n');
 }
