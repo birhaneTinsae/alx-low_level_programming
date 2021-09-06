@@ -3,11 +3,11 @@
 int string_length(char *pointer)
 {
 int c = 0;
-while( *(pointer + c) != '\0' )
+while(*(pointer + c) != '\0')
 {
 c++;
-}      
-return c;
+}
+return (c);
 }
 /**
  * rev_string - get string length
@@ -22,8 +22,8 @@ begin = str;
 end = str;
 for (c = 0 ; c < (length - 1) ; c++)
 end++;
-for (c = 0 ; c < length / 2 ; c++) 
-{        
+for (c = 0 ; c < length / 2 ; c++)
+{
 temp = *end;
 *end = *begin;
 *begin = temp;
