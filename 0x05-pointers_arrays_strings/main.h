@@ -20,4 +20,8 @@ int _strlen(char *s);
  * @s: string argument
  */
 void _puts(char *str);
-
+/**
+ * print_rev - get string length
+ * @s: string argument
+ */
+void print_rev(char *s);
