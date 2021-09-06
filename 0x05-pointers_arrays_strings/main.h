@@ -30,4 +30,9 @@ void print_rev(char *s);
  * @s: string argument
  */
 void rev_string(char *s);
+/**
+ * puts2 - get string length
+ * @s: string argument
+ */
+void puts2(char *str);
 
