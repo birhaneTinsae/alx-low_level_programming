@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *reset_to_90:
- *@n pointer parameter
+ *reset_to_90 - change n value
+ *@n: pointer parameter
  */
 void reset_to_98(int *n)
 {
