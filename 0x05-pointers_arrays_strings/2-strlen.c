@@ -4,7 +4,7 @@
  * @s: string argument
  *
  * Return: string size
- * */
+ */
 int _strlen(char *s)
 {
 char *p = s;
