@@ -1,5 +1,14 @@
 #include"main.h"
 #include <stdio.h>
+int string_length(char *pointer)
+{
+int c = 0;
+while( *(pointer + c) != '\0' )
+{
+c++;
+}      
+return c;
+}
 /**
  * print_rev - get string length
  * @str: string argument
@@ -22,13 +31,4 @@ begin++;
 end--;
 }
 puts(str);
-}
-int string_length(char *pointer)
-{
-int c = 0;
-while( *(pointer + c) != '\0' )
-{
-c++;
-}      
-return c;
 }
