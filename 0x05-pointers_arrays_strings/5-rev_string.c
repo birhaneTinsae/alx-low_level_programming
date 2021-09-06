@@ -20,9 +20,9 @@ char *begin, *end, temp;
 length = string_length(str);
 begin = str;
 end = str;
-for ( c = 0 ; c < ( length - 1 ) ; c++ )
+for (c = 0 ; c < (length - 1) ; c++)
 end++;
-for ( c = 0 ; c < length/2 ; c++ ) 
+for (c = 0 ; c < length / 2 ; c++) 
 {        
 temp = *end;
 *end = *begin;
